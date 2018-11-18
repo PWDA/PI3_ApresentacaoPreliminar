@@ -9,6 +9,7 @@ public class Produto {
     private String origem;
     private float valorUnitario;
     private String descricao;
+    private float valorTotal; // usado para mostrar no form de venda
 
     public int getId() {
         return id;
@@ -64,6 +65,14 @@ public class Produto {
 
     public void setDescricao(String descricao) {
         this.descricao = descricao;
+    }
+
+    public float getValorTotal() {
+        return valorTotal;
+    }
+
+    public void setValorTotal(float valorTotal) {
+        this.valorTotal = valorTotal;
     }
 
 }
